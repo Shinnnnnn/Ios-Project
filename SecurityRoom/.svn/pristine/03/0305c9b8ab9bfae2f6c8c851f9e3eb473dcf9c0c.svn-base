@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="140" id="KGk-i7-Jjw" customClass="secondCell">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="140"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="139"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60I-ey-UTf">
+                        <rect key="frame" x="0.0" y="0.0" width="110" height="139"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noH-LL-AdT">
+                        <rect key="frame" x="110" y="0.0" width="110" height="139"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zzO-Pm-4gB">
+                        <rect key="frame" x="219" y="0.0" width="110" height="139"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6DO-3r-MiW">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="TZf-yJ-H8d"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Twu-EO-Was">
+                        <rect key="frame" x="110" y="1" width="0.0" height="139"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="smB-1D-hNv"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vlc-9Y-yvg">
+                        <rect key="frame" x="219" y="0.0" width="1" height="140"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="spA-OC-KRo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="6DO-3r-MiW" secondAttribute="trailing" id="09F-Gl-NsG"/>
+                    <constraint firstItem="Twu-EO-Was" firstAttribute="leading" secondItem="60I-ey-UTf" secondAttribute="trailing" id="Coa-Jz-LxE"/>
+                    <constraint firstItem="zzO-Pm-4gB" firstAttribute="leading" secondItem="vlc-9Y-yvg" secondAttribute="trailing" id="DHa-z4-73f"/>
+                    <constraint firstAttribute="bottom" secondItem="vlc-9Y-yvg" secondAttribute="bottom" id="JVe-Zk-Ak5"/>
+                    <constraint firstItem="Twu-EO-Was" firstAttribute="top" secondItem="6DO-3r-MiW" secondAttribute="bottom" id="Jvc-Py-mDa"/>
+                    <constraint firstItem="noH-LL-AdT" firstAttribute="width" secondItem="60I-ey-UTf" secondAttribute="width" id="KVB-e9-EdQ"/>
+                    <constraint firstAttribute="bottom" secondItem="zzO-Pm-4gB" secondAttribute="bottom" id="KzC-ek-0Nt"/>
+                    <constraint firstItem="zzO-Pm-4gB" firstAttribute="width" secondItem="60I-ey-UTf" secondAttribute="width" id="SXA-CI-Adu"/>
+                    <constraint firstAttribute="bottom" secondItem="noH-LL-AdT" secondAttribute="bottom" id="TcE-8X-BfE"/>
+                    <constraint firstItem="6DO-3r-MiW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Uw3-R3-E98"/>
+                    <constraint firstAttribute="bottom" secondItem="Twu-EO-Was" secondAttribute="bottom" id="WwB-SL-UHw"/>
+                    <constraint firstItem="60I-ey-UTf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YWp-0v-UQE"/>
+                    <constraint firstItem="zzO-Pm-4gB" firstAttribute="height" secondItem="60I-ey-UTf" secondAttribute="height" id="atw-x2-bf7"/>
+                    <constraint firstItem="6DO-3r-MiW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="d1i-t8-b6j"/>
+                    <constraint firstItem="60I-ey-UTf" firstAttribute="top" secondItem="6DO-3r-MiW" secondAttribute="bottom" id="dZn-AG-gmv"/>
+                    <constraint firstAttribute="bottom" secondItem="60I-ey-UTf" secondAttribute="bottom" id="ebg-7l-z0q"/>
+                    <constraint firstItem="noH-LL-AdT" firstAttribute="top" secondItem="6DO-3r-MiW" secondAttribute="bottom" id="foU-qd-2dj"/>
+                    <constraint firstItem="vlc-9Y-yvg" firstAttribute="leading" secondItem="noH-LL-AdT" secondAttribute="trailing" id="g2J-bN-mse"/>
+                    <constraint firstItem="vlc-9Y-yvg" firstAttribute="leading" secondItem="noH-LL-AdT" secondAttribute="trailing" id="mmO-SN-3zh"/>
+                    <constraint firstItem="vlc-9Y-yvg" firstAttribute="top" secondItem="6DO-3r-MiW" secondAttribute="bottom" id="njt-mZ-YNl"/>
+                    <constraint firstItem="zzO-Pm-4gB" firstAttribute="top" secondItem="6DO-3r-MiW" secondAttribute="bottom" id="npX-SY-l57"/>
+                    <constraint firstItem="Twu-EO-Was" firstAttribute="leading" secondItem="60I-ey-UTf" secondAttribute="trailing" id="r6p-xw-MJX"/>
+                    <constraint firstAttribute="trailing" secondItem="zzO-Pm-4gB" secondAttribute="trailing" id="r7x-zQ-UbG"/>
+                    <constraint firstItem="noH-LL-AdT" firstAttribute="height" secondItem="60I-ey-UTf" secondAttribute="height" id="tsi-sy-nSf"/>
+                    <constraint firstItem="noH-LL-AdT" firstAttribute="leading" secondItem="Twu-EO-Was" secondAttribute="trailing" id="wx7-sB-Oaf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftBtn" destination="60I-ey-UTf" id="lrf-Aw-jWU"/>
+                <outlet property="leftView" destination="Twu-EO-Was" id="3Dn-Z8-NR2"/>
+                <outlet property="midBtn" destination="noH-LL-AdT" id="VGA-Fj-YVN"/>
+                <outlet property="rightBtn" destination="zzO-Pm-4gB" id="18W-OP-ClT"/>
+                <outlet property="rightView" destination="vlc-9Y-yvg" id="4It-oi-1B6"/>
+                <outlet property="topView" destination="6DO-3r-MiW" id="Fca-rN-ne5"/>
+            </connections>
+            <point key="canvasLocation" x="249.5" y="353"/>
+        </tableViewCell>
+    </objects>
+</document>
